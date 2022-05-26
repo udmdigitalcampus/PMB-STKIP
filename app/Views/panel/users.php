@@ -509,6 +509,8 @@ $(document).on('click', '#button-update', function(e) {
                 'csrf_token_name': $('input[name=csrf_token_name]').val(),
             }
 
+            console.log(data);
+
             $.ajax({
                 url: "<?= route_to('admin/data-users-edit') ?>",
                 type: "POST",
@@ -525,6 +527,7 @@ $(document).on('click', '#button-update', function(e) {
                     $('#button-update').html('Update');
                 },
                 success: function(data) {
+                    console.log(data);
                     $('input[name=csrf_token_name]').val(data.csrf_token_name);
                     $('#id').val('');
                     if (data.error != undefined) {

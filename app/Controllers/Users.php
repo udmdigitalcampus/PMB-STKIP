@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\LogModel;
 use CodeIgniter\API\ResponseTrait;
 use CodeIgniter\Session\Session;
 use Myth\Auth\Authorization\GroupModel;
@@ -34,6 +35,7 @@ class Users extends BaseController
 		$this->auth = service('authorization');
 		$this->userModel = new UserModel();
 		$this->groupModel = new GroupModel();
+		$this->logModel = new LogModel();
 	}
 	public function index()
 	{
@@ -159,8 +161,13 @@ class Users extends BaseController
 
 			if (!$this->auth->removeUserFromGroup($id, $role_s)) {
 				$data = array('error' => 'Failed to delete group user');
-			} else if (!$this->auth->addUserToGroup($id, $role)) {
+				$data[$csrfname] = $csrfhash;
+				return $this->response->setJSON($data);
+			}
+			if (!$this->auth->addUserToGroup($id, $role)) {
 				$data = array('error' => 'Failed to add group users');
+				$data[$csrfname] = $csrfhash;
+				return $this->response->setJSON($data);
 			}
 
 			$data = [
@@ -170,8 +177,6 @@ class Users extends BaseController
 			$this->logModel->save($data);
 
 			$data = array('success' => 'Successfully changed user  ' . $this->request->getPost('username'));
-
-
 			$data[$csrfname] = $csrfhash;
 			return $this->response->setJSON($data);
 		} else {
