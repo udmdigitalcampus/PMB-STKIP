@@ -772,7 +772,7 @@ function add() {
             $('#button-entri').html('Submit');
         },
         success: function(data) {
-            console.log(data);
+            // console.log(data);
             $('input[name=csrf_token_name]').val(data.csrf_token_name);
             if (data.username != undefined) {
                 alertify.error(data.username);

@@ -472,7 +472,8 @@ class Users extends BaseController
 
 			if (!$this->validate($rules)) {
 				// return redirect()->back()->withInput()->with('errors', $users->errors());
-				$data = array('error', $users->errors());
+				// $data = array('error', $users->errors());
+				$data = array('error' => 'Masukan password yang benar');
 				$data[$csrfname] = $csrfhash;
 				return $this->response->setJSON($data);
 			}
@@ -482,8 +483,8 @@ class Users extends BaseController
 
 			if (is_null($user)) {
 				// return redirect()->back()->with('error', lang('Auth.forgotNoUser'));
-				$data = array('error', lang('Auth.forgotNoUser'));
-				$data[$csrfname] = $csrfhash;
+				$data = array('error' => lang('Auth.forgotNoUser'));
+				// $data[$csrfname] = $csrfhash;
 				return $this->response->setJSON($data);
 			}
 
@@ -507,7 +508,7 @@ class Users extends BaseController
 			$user->force_pass_reset = false;
 			$users->save($user);
 
-			// $this->logModel->save($data);
+			$this->logModel->save($data);
 
 			$data = array('success' => lang('Auth.resetSuccess'));
 			$data[$csrfname] = $csrfhash;
