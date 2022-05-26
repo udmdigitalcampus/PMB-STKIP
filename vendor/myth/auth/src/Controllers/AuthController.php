@@ -161,6 +161,12 @@ class AuthController extends Controller
 					'is_unique' => 'Email yang anda masukan sudah terdaftar',
 					'required' => 'Email harus diisi !'
 				]
+			],
+			'no_hp'    => [
+				'rules' => 'required',
+				'errors' => [
+					'required' => 'Nomor Hp harus diisi !'
+				]
 			]
 		];
 
@@ -181,6 +187,8 @@ class AuthController extends Controller
 		// Save the user
 		$allowedPostFields = array_merge(['password'], $this->config->validFields, $this->config->personalFields);
 		$user = new User($this->request->getPost($allowedPostFields));
+
+		// return $this->response->setJSON($user);
 
 		$this->config->requireActivation === null ? $user->activate() : $user->generateActivateHash();
 

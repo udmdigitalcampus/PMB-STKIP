@@ -82,6 +82,7 @@
                                             <th>No</th>
                                             <th>Username</th>
                                             <th>Email</th>
+                                            <th>Nomor Hp</th>
                                             <th>Role</th>
                                             <th>Action</th>
                                         </tr>
@@ -95,6 +96,7 @@
                                             <th>No</th>
                                             <th>Username</th>
                                             <th>Email</th>
+                                            <th>Nomor Hp</th>
                                             <th>Role</th>
                                             <th>Action</th>
                                         </tr>

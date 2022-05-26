@@ -60,6 +60,13 @@
                                             value="<?= old('username') ?>" required>
                                     </div>
 
+                                    <div class="form-group mb-3">
+                                        <label for="username">Nomor Hp</label>
+                                        <input oninput="this.value = this.value.toLowerCase()" type="text"
+                                            class="form-control <?php if (session('errors.no_hp')) : ?>is-invalid<?php endif ?>"
+                                            name="no_hp" placeholder="Nomor Hp" value="<?= old('no_hp') ?>" required>
+                                    </div>
+
                                     <div class="form-group">
                                         <label for="password"><?= lang('Auth.password') ?></label>
                                     </div>

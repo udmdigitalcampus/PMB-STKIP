@@ -65,7 +65,7 @@ class Users extends BaseController
 			$csrfhash = csrf_hash();
 			if ($posts = $this->userModel
 				->groupBy('users.id')
-				->select('users.id as userid, username, email, GROUP_CONCAT(name SEPARATOR " | ") as name')
+				->select('users.id as userid, username, email, no_hp, GROUP_CONCAT(name SEPARATOR " | ") as name')
 				->join('auth_groups_users', 'auth_groups_users.user_id = users.id')
 				->join('auth_groups', 'auth_groups_users.group_id = auth_groups.id')
 				->orderBy('users.id', 'DESC')
@@ -78,6 +78,7 @@ class Users extends BaseController
 					$row[] = $no;
 					$row[] = $key->username;
 					$row[] = $key->email;
+					$row[] = $key->no_hp;
 					$row[] = $key->name;
 					if ($key->name == 'superadmin') {
 						if ($key->userid == user_id()) {

@@ -86,7 +86,7 @@ class Auth extends BaseConfig
 	 *
 	 * @var string[]
 	 */
-	public $personalFields = [];
+	public $personalFields = ['no_hp'];
 
 	/**
 	 * --------------------------------------------------------------------
