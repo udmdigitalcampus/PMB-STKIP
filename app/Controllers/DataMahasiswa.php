@@ -121,14 +121,14 @@ class DataMahasiswa extends BaseController
 			$jurusan = $this->request->getGet('jurusan');
 			if ($jurusan != null) {
 				$post = $this->profilModel
-					->select('profil.id, jurusan_id, nim, email, nama_lengkap, jurusan.jurusan, agama, nik, nisn, npsn, tempat_lahir, tanggal_lahir, jenis_kelamin, no_hp, sekolah_asal, jurusan_sekolah_asal, tahun_lulus, nama_ayah, nama_ibu, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu')
+					->select('profil.id, jurusan_id, nim, email, nama_lengkap, jurusan.jurusan, agama, nik, nisn, npsn, tempat_lahir, tanggal_lahir, jenis_kelamin, profil.no_hp, sekolah_asal, jurusan_sekolah_asal, tahun_lulus, nama_ayah, nama_ibu, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu')
 					->join('status_mhs', 'status_mhs.profil_id = profil.id')
 					->join('jurusan', 'profil.jurusan = jurusan.jurusan_id')
 					->join('users', 'profil.id = users.id')
 					->where('profil.jurusan', $jurusan)->findAll();
 			} else {
 				$post = $this->profilModel
-					->select('profil.id, jurusan_id, nim, email, nama_lengkap, jurusan.jurusan, agama, nik, nisn, npsn, tempat_lahir, tanggal_lahir, jenis_kelamin, no_hp, sekolah_asal, jurusan_sekolah_asal, tahun_lulus, nama_ayah, nama_ibu, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu')
+					->select('profil.id, jurusan_id, nim, email, nama_lengkap, jurusan.jurusan, agama, nik, nisn, npsn, tempat_lahir, tanggal_lahir, jenis_kelamin, profil.no_hp, sekolah_asal, jurusan_sekolah_asal, tahun_lulus, nama_ayah, nama_ibu, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu')
 					->join('jurusan', 'profil.jurusan = jurusan.jurusan_id')
 					->join('users', 'profil.id = users.id')
 					->join('status_mhs', 'status_mhs.profil_id = profil.id')->findAll();
