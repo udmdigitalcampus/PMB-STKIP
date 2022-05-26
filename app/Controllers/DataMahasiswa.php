@@ -47,14 +47,14 @@ class DataMahasiswa extends BaseController
 			$jurusan = $this->request->getGet('jurusan');
 			if ($jurusan != null) {
 				$post = $this->profilModel
-					->select('profil.id, profil_id, jurusan_id, nama_lengkap, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu')
+					->select('profil.id, profil_id, jurusan_id, nama_lengkap, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu, dari')
 					->join('status_mhs', 'status_mhs.profil_id = profil.id', 'LEFT')
 					->join('jurusan', 'profil.jurusan = jurusan.jurusan_id')
 					->orderBy('profil.id', 'DESC')
 					->where('profil.jurusan', $jurusan)->findAll();
 			} else {
 				$post = $this->profilModel
-					->select('profil.id, jurusan_id, nama_lengkap, profil_id, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu')
+					->select('profil.id, jurusan_id, nama_lengkap, profil_id, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu, dari')
 					->join('jurusan', 'profil.jurusan = jurusan.jurusan_id')
 					->orderBy('profil.id', 'DESC')
 					->join('status_mhs', 'status_mhs.profil_id = profil.id', 'LEFT')->findAll();
