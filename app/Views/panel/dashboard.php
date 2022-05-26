@@ -94,7 +94,7 @@
                                         <span class="text-muted mb-3 lh-1 d-block text-truncate">Uang Masuk</span>
                                         <h4 class="mb-3">
                                             Rp<span class="counter-value"
-                                                data-target="<?= $uang_masuk->nominal / 1000; ?>">0</span>k
+                                                data-target="<?= $uang_masuk->nominal / 1000;  ?>">0</span>k
                                         </h4>
                                     </div>
 

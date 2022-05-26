@@ -13,6 +13,7 @@ class Home extends BaseController
 		$this->pembayaranModel = new PembayaranModel();
 		$this->profilModel = new ProfilModel();
 		$this->time = new Time('now', 'Asia/Jakarta', 'id');
+		helper("number");
 	}
 
 	public function index()

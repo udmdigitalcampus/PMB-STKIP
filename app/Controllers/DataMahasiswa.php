@@ -47,7 +47,7 @@ class DataMahasiswa extends BaseController
 			$jurusan = $this->request->getGet('jurusan');
 			if ($jurusan != null) {
 				$post = $this->profilModel
-					->select('profil.id, profil_id, jurusan_id, email, nama_lengkap, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu, dari')
+					->select('profil.id, profil_id, jurusan_id, username, nama_lengkap, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu, dari')
 					->join('status_mhs', 'status_mhs.profil_id = profil.id', 'LEFT')
 					->join('jurusan', 'profil.jurusan = jurusan.jurusan_id')
 					->join('users', 'profil.id = users.id')
@@ -55,7 +55,7 @@ class DataMahasiswa extends BaseController
 					->where('profil.jurusan', $jurusan)->findAll();
 			} else {
 				$post = $this->profilModel
-					->select('profil.id, jurusan_id, email, nama_lengkap, profil_id, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu, dari')
+					->select('profil.id, jurusan_id, username, nama_lengkap, profil_id, jurusan.jurusan, nisn, npsn, jenis_kelamin, foto_profil, izazah, ktp, ktp_ayah, ktp_ibu, dari')
 					->join('jurusan', 'profil.jurusan = jurusan.jurusan_id')
 					->join('users', 'profil.id = users.id')
 					->orderBy('profil.id', 'DESC')
@@ -84,7 +84,7 @@ class DataMahasiswa extends BaseController
 					// $row[] = $key->nama_ayah;
 					// $row[] = $key->nama_ibu;
 					// $row[] = $key->sekolah_asal;
-					// $row[] = $key->jurusan_sekolah_asal;
+					$row[] = $key->username;
 					$row[] = $key->dari;
 					$row[] = '<div class="btn-group">
 					<button type="button" class="btn btn-info">Pilih Aksi</button>

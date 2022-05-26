@@ -92,6 +92,7 @@
                                             <th>Ibu</th>
                                             <th>Sekolah Asal</th>
                                             <th>Jurusan Sekolah</th> -->
+                                            <th>Username</th>
                                             <th>Rekomendasi Dari</th>
                                             <th>Aksi</th>
                                         </tr>
