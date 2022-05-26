@@ -595,7 +595,7 @@ $(document).on('click', '#passmodal', function(e) {
         type: "GET",
         data: data,
         success: function(data) {
-            console.log(data);
+            // console.log(data);
             $('input[name=csrf_token_name]').val(data.csrf_token_name);
             $('#id').val(data.id);
         }
@@ -611,7 +611,7 @@ $(document).on('click', '#button-reset', function(e) {
         'csrf_token_name': $('input[name=csrf_token_name]').val(),
     }
 
-    console.log(data);
+    // console.log(data);
 
     $.ajax({
         url: "<?= route_to('admin/data-users-reset-password') ?>",
@@ -628,7 +628,7 @@ $(document).on('click', '#button-reset', function(e) {
             $('#button-reset').html('Reset Password');
         },
         success: function(data) {
-            console.log(data);
+            // console.log(data);
             $('.password-edit').val('');
             $('.pass_confirm-edit').val('');
             $('input[name=csrf_token_name]').val(data.csrf_token_name);
