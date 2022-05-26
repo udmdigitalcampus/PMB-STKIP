@@ -47,7 +47,7 @@
                 <!-- end page title -->
 
                 <?= csrf_field() ?>
-                <?php if ($profil->profil_id != null ) : ?>
+                <?php if ($profil->profil_id != null) : ?>
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center mb-3">
                         <h1 class="text-success">SELAMAT ANDA LULUS !
@@ -59,7 +59,7 @@
                         </h2>
                     </div>
                 </div>
-                <?php else: ?>
+                <?php else : ?>
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center mb-3">
                         <h1 class="text-success">MAAF, ANDA BELUM LULUS !
@@ -110,7 +110,7 @@
                                                                         <p class="mb-0 mt-2 pt-1 text-muted"> Silahkan
                                                                             masuk grup whatsapp, dengan mengeklik tombol
                                                                             dibawah ini <br> <a
-                                                                                href="https://chat.whatsapp.com/BlJ4zW0x1SBGv5Wn4020nt"
+                                                                                href="https://chat.whatsapp.com/L3kPivqO1PpJTvovFw2lGM"
                                                                                 type="button"
                                                                                 class="btn btn-primary waves-effect waves-light">
                                                                                 <i
