@@ -142,6 +142,7 @@
                                             <th>Ibu</th>
                                             <th>Sekolah Asal</th>
                                             <th>Jurusan Sekolah</th>
+                                            <th>Email</th>
                                             <th>Tahun Lulus</th>
                                             <th>Aksi</th>
                                         </tr>
