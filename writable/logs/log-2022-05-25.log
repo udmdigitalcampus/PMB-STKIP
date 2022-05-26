@@ -1,0 +1,40 @@
+CRITICAL - 2022-05-25 10:27:13 --> CURL Error: Could not resolve host: api.midtrans.com
+#0 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-CCfO...', false, 'GET')
+#1 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(25): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-CCfO...', false)
+#2 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('3e39de39-cb63-4...')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(170): Midtrans\Notification->__construct()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:27:34 --> CURL Error: Could not resolve host: api.midtrans.com
+#0 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-CCfO...', false, 'GET')
+#1 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(25): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-CCfO...', false)
+#2 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('602e79d7-36af-4...')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(170): Midtrans\Notification->__construct()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:27:57 --> CURL Error: Could not resolve host: api.midtrans.com
+#0 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-CCfO...', false, 'GET')
+#1 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(25): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-CCfO...', false)
+#2 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('3e39de39-cb63-4...')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(170): Midtrans\Notification->__construct()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 10:28:27 --> CURL Error: Could not resolve host: api.midtrans.com
+#0 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.mid...', 'Mid-server-CCfO...', false, 'GET')
+#1 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(25): Midtrans\ApiRequestor::get('https://api.mid...', 'Mid-server-CCfO...', false)
+#2 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('602e79d7-36af-4...')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(170): Midtrans\Notification->__construct()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

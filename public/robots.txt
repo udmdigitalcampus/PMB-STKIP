@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /admin
+Disallow: /pendaftar
+Disallow: /pembayaran-update-notifikasi
+
+User-agent: *
+Allow: /

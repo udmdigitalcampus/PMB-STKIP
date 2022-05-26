@@ -1,0 +1,14 @@
+CRITICAL - 2022-01-21 15:30:24 --> Invalid file: partials/head-main.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/head-m...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render('partials/head-m...', NULL, true)
+#2 /home/u1553325/public_html/pmb/app/Views/panel/auth-recoverpw.php(1): CodeIgniter\View\View->include('partials/head-m...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/u1553325/...')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('App\\Views\\panel...', Array, true)
+#6 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(414): view('App\\Views\\panel...', Array)
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(225): Myth\Auth\Controllers\AuthController->_render('App\\Views\\panel...', Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->forgotPassword()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

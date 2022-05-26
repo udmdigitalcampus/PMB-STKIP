@@ -1,0 +1,14 @@
+CRITICAL - 2022-01-31 17:58:00 --> Undefined property: stdClass::$fraud_status
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/u1553325/...', 124, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 17:59:05 --> Undefined property: stdClass::$fraud_status
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/u1553325/...', 124, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

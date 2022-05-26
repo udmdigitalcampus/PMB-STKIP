@@ -1,0 +1,14 @@
+CRITICAL - 2022-01-27 12:40:57 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:41:24 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

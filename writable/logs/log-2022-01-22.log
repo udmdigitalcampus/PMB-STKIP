@@ -1,0 +1,122 @@
+ERROR - 2022-01-22 04:32:23 --> Table 'u1553325_pmbci.pembayaran' doesn't exist
+CRITICAL - 2022-01-22 04:32:23 --> Table 'u1553325_pmbci.pembayaran' doesn't exist
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u1553325/public_html/pmb/app/Controllers/Pendaftar.php(27): CodeIgniter\Model->__call('get', Array)
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pendaftar->index()
+#7 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-22 04:33:02 --> escapeshellarg() has been disabled for security reasons
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'escapeshellarg(...', '/home/u1553325/...', 92, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Commands/Server/Serve.php(92): escapeshellarg('/opt/alt/php74/...')
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CLI/Commands.php(63): CodeIgniter\Commands\Server\Serve->run(Array)
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(70): CodeIgniter\CLI\Commands->run('serve', Array)
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CLI/CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(823): CodeIgniter\CLI\CommandRunner->_remap('index', 'serve')
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#7 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CLI/Console.php(48): CodeIgniter\CodeIgniter->run()
+#9 /home/u1553325/public_html/pmb/spark(63): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2022-01-22 04:33:23 --> Class 'Midtrans\Config' not found
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-22 04:33:55 --> Trying to access array offset on value of type null
+#0 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/u1553325/...', 26, Array)
+#1 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): Midtrans\Notification->__construct()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-22 06:06:26 --> The ServerKey/ClientKey is null, You need to set the server-key from Config. Please double-check Config and ServerKey key. You can check from the Midtrans Dashboard. See https://docs.midtrans.com/en/midtrans-account/overview?id=retrieving-api-access-keys for the details or contact support at support@midtrans.com if you have any questions.
+#0 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.san...', NULL, false, 'GET')
+#1 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(25): Midtrans\ApiRequestor::get('https://api.san...', NULL, false)
+#2 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('898cce77-c8a0-4...')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(113): Midtrans\Notification->__construct()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-22 06:09:39 --> The ServerKey/ClientKey is null, You need to set the server-key from Config. Please double-check Config and ServerKey key. You can check from the Midtrans Dashboard. See https://docs.midtrans.com/en/midtrans-account/overview?id=retrieving-api-access-keys for the details or contact support at support@midtrans.com if you have any questions.
+#0 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/ApiRequestor.php(25): Midtrans\ApiRequestor::remoteCall('https://api.san...', NULL, false, 'GET')
+#1 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Transaction.php(25): Midtrans\ApiRequestor::get('https://api.san...', NULL, false)
+#2 /home/u1553325/public_html/pmb/vendor/midtrans/midtrans-php/Midtrans/Notification.php(26): Midtrans\Transaction::status('b3a56ced-5ab8-4...')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(113): Midtrans\Notification->__construct()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-22 06:21:22 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 06:48:58 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 06:49:11 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 06:50:32 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 06:50:52 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 12:18:14 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 12:20:26 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 12:36:47 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-22 12:38:21 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 164, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

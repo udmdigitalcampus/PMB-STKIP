@@ -1,0 +1,19 @@
+# To prevent access to .env and other files
+<Files .*>
+# Apache 2.2
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+# Apache 2.4
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+</Files>
+
+DirectoryIndex index.php
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^ index.php [L]
+RewriteRule !^(public/|index\.php) [NC,F]

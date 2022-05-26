@@ -1,0 +1,137 @@
+CRITICAL - 2022-02-03 22:12:37 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 195, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:14:14 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 195, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:15:40 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 195, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:17:12 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 195, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:17:32 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 195, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:25:48 --> Undefined offset: 1
+#0 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/u1553325/...', 90, Array)
+#1 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('dimassapriyani', Object(Myth\Auth\Entities\User))
+#2 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('dimassapriyani', Object(Myth\Auth\Entities\User))
+#3 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('dimassapriyani', Object(Myth\Auth\Entities\User))
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Validation/Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('dimassapriyani', NULL)
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'dimassapriyani', Array, Array)
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(177): CodeIgniter\Controller->validate(Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-03 22:28:26 --> Undefined offset: 1
+#0 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/u1553325/...', 90, Array)
+#1 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/NothingPersonalValidator.php(39): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->isNotPersonal('dimass1505', Object(Myth\Auth\Entities\User))
+#2 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/PasswordValidator.php(55): Myth\Auth\Authentication\Passwords\NothingPersonalValidator->check('dimass1505', Object(Myth\Auth\Entities\User))
+#3 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Authentication/Passwords/ValidationRules.php(45): Myth\Auth\Authentication\Passwords\PasswordValidator->check('dimass1505', Object(Myth\Auth\Entities\User))
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Validation/Validation.php(291): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('dimass1505', NULL)
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('password', 'password', 'dimass1505', Array, Array)
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(177): CodeIgniter\Controller->validate(Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->attemptRegister()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-03 22:52:51 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 188, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:58:19 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 188, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:58:52 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 188, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 22:59:01 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 188, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-03 23:00:55 --> Table 'u1553325_pmbci.tahun' doesn't exist
+CRITICAL - 2022-02-03 23:00:55 --> Table 'u1553325_pmbci.tahun' doesn't exist
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u1553325/public_html/pmb/app/Models/TahunModel.php(16): CodeIgniter\Model->__call('get', Array)
+#6 /home/u1553325/public_html/pmb/app/Controllers/Pendaftar.php(309): App\Models\TahunModel->gettahunaktif()
+#7 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pendaftar->add()
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-03 23:04:45 --> Trying to get property 'tahun' of non-object
+#0 /home/u1553325/public_html/pmb/app/Models/TahunModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 16, Array)
+#1 /home/u1553325/public_html/pmb/app/Controllers/Pendaftar.php(309): App\Models\TahunModel->gettahunaktif()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pendaftar->add()
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 23:04:53 --> Trying to get property 'tahun' of non-object
+#0 /home/u1553325/public_html/pmb/app/Models/TahunModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 16, Array)
+#1 /home/u1553325/public_html/pmb/app/Controllers/Pendaftar.php(309): App\Models\TahunModel->gettahunaktif()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pendaftar->add()
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 23:05:25 --> Trying to get property 'tahun' of non-object
+#0 /home/u1553325/public_html/pmb/app/Models/TahunModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 16, Array)
+#1 /home/u1553325/public_html/pmb/app/Controllers/Pendaftar.php(309): App\Models\TahunModel->gettahunaktif()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pendaftar->add()
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 23:07:26 --> Trying to get property 'tahun' of non-object
+#0 /home/u1553325/public_html/pmb/app/Models/TahunModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 16, Array)
+#1 /home/u1553325/public_html/pmb/app/Controllers/Pendaftar.php(309): App\Models\TahunModel->gettahunaktif()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pendaftar->add()
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftar))
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,60 @@
+CRITICAL - 2022-04-04 14:24:45 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:24:46 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:25:38 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:25:40 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:25:50 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:25:59 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:26:24 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:26:38 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:26:45 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:26:52 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:27:09 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:27:21 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:27:45 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:28:36 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}
+CRITICAL - 2022-04-04 14:30:22 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /home/u1553325/public_html/pmb/public/index.php(28): require('/home/u1553325/...')
+#2 {main}

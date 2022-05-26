@@ -1,0 +1,292 @@
+CRITICAL - 2022-02-04 00:25:15 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 188, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 00:25:42 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(188): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 188, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 00:56:49 --> Invalid file: partials/head-main.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/head-m...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render('partials/head-m...', NULL, true)
+#2 /home/u1553325/public_html/pmb/app/Views/panel/auth-recoverpw.php(1): CodeIgniter\View\View->include('partials/head-m...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/u1553325/...')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('App\\Views\\panel...', Array, true)
+#6 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(414): view('App\\Views\\panel...', Array)
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(225): Myth\Auth\Controllers\AuthController->_render('App\\Views\\panel...', Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->forgotPassword()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-04 01:36:08 --> Class 'App\Models\PengumumanModel' not found
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pengumuman->__construct()
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-04 01:36:40 --> Table 'u1553325_pmbci.pengumuman' doesn't exist
+CRITICAL - 2022-02-04 01:36:40 --> Table 'u1553325_pmbci.pengumuman' doesn't exist
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 /home/u1553325/public_html/pmb/app/Controllers/Pengumuman.php(20): CodeIgniter\BaseModel->findAll()
+#7 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pengumuman->index()
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengumuman))
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-02-04 02:29:59 --> Cannot add or update a child row: a foreign key constraint fails (`u1553325_pmbci`.`pembayaran`, CONSTRAINT `pembayaran_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+ERROR - 2022-02-04 02:33:09 --> Cannot add or update a child row: a foreign key constraint fails (`u1553325_pmbci`.`pembayaran`, CONSTRAINT `pembayaran_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+ERROR - 2022-02-04 02:52:48 --> Cannot add or update a child row: a foreign key constraint fails (`u1553325_pmbci`.`pembayaran`, CONSTRAINT `pembayaran_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+ERROR - 2022-02-04 02:56:10 --> Cannot add or update a child row: a foreign key constraint fails (`u1553325_pmbci`.`pembayaran`, CONSTRAINT `pembayaran_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+ERROR - 2022-02-04 03:03:32 --> Cannot add or update a child row: a foreign key constraint fails (`u1553325_pmbci`.`pembayaran`, CONSTRAINT `pembayaran_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+ERROR - 2022-02-04 03:05:00 --> Cannot add or update a child row: a foreign key constraint fails (`u1553325_pmbci`.`pembayaran`, CONSTRAINT `pembayaran_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+ERROR - 2022-02-04 03:37:18 --> Cannot add or update a child row: a foreign key constraint fails (`u1553325_pmbci`.`pembayaran`, CONSTRAINT `pembayaran_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-02-04 04:39:17 --> Invalid file: partials/head-main.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/head-m...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render('partials/head-m...', NULL, true)
+#2 /home/u1553325/public_html/pmb/app/Views/panel/auth-recoverpw.php(1): CodeIgniter\View\View->include('partials/head-m...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/u1553325/...')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('App\\Views\\panel...', Array, true)
+#6 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(414): view('App\\Views\\panel...', Array)
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(225): Myth\Auth\Controllers\AuthController->_render('App\\Views\\panel...', Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->forgotPassword()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-04 04:39:22 --> Invalid file: partials/head-main.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/head-m...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render('partials/head-m...', NULL, true)
+#2 /home/u1553325/public_html/pmb/app/Views/panel/auth-recoverpw.php(1): CodeIgniter\View\View->include('partials/head-m...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/u1553325/...')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('App\\Views\\panel...', Array, true)
+#6 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(414): view('App\\Views\\panel...', Array)
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(225): Myth\Auth\Controllers\AuthController->_render('App\\Views\\panel...', Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->forgotPassword()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-04 04:50:24 --> Invalid file: partials/head-main.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/head-m...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render('partials/head-m...', NULL, true)
+#2 /home/u1553325/public_html/pmb/app/Views/panel/auth-recoverpw.php(1): CodeIgniter\View\View->include('partials/head-m...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/u1553325/...')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('App\\Views\\panel...', Array, true)
+#6 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(414): view('App\\Views\\panel...', Array)
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(225): Myth\Auth\Controllers\AuthController->_render('App\\Views\\panel...', Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->forgotPassword()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-04 11:15:55 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:16:10 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:16:10 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:16:17 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:16:20 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:16:23 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:16:26 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:16:29 --> Undefined variable: snap_token
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/u1553325/...', 75, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:19:38 --> Invalid file: panel/pembayara.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('panel/pembayara...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('panel/pembayara', Array, true)
+#2 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(81): view('panel/pembayara', Array)
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->index()
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-04 12:04:46 --> Call to undefined function App\Controllers\user_id()
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 12:13:07 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 169, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 12:13:47 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 169, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 12:14:47 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 169, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-04 12:20:58 --> Unknown column 'pembayaran.deleted_at' in 'where clause'
+CRITICAL - 2022-02-04 12:20:58 --> Unknown column 'pembayaran.deleted_at' in 'where clause'
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(167): CodeIgniter\Model->countAllResults()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#7 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-04 12:21:34 --> Unknown column 'pembayaran.deleted_at' in 'where clause'
+CRITICAL - 2022-02-04 12:21:34 --> Unknown column 'pembayaran.deleted_at' in 'where clause'
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(167): CodeIgniter\Model->countAllResults()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#7 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-04 12:26:31 --> Undefined property: stdClass::$va_numbers
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/u1553325/...', 115, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 12:28:38 --> Undefined property: stdClass::$va_numbers
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/u1553325/...', 115, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 19:13:48 --> Invalid file: partials/head-main.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/head-m...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render('partials/head-m...', NULL, true)
+#2 /home/u1553325/public_html/pmb/app/Views/panel/auth-recoverpw.php(1): CodeIgniter\View\View->include('partials/head-m...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/u1553325/...')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('App\\Views\\panel...', Array, true)
+#6 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(414): view('App\\Views\\panel...', Array)
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(225): Myth\Auth\Controllers\AuthController->_render('App\\Views\\panel...', Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->forgotPassword()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-04 19:13:53 --> Invalid file: partials/head-main.php
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/head-m...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render('partials/head-m...', NULL, true)
+#2 /home/u1553325/public_html/pmb/app/Views/panel/auth-recoverpw.php(1): CodeIgniter\View\View->include('partials/head-m...')
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(210): include('/home/u1553325/...')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render('App\\Views\\panel...', Array, true)
+#6 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(414): view('App\\Views\\panel...', Array)
+#7 /home/u1553325/public_html/pmb/vendor/myth/auth/src/Controllers/AuthController.php(225): Myth\Auth\Controllers\AuthController->_render('App\\Views\\panel...', Array)
+#8 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): Myth\Auth\Controllers\AuthController->forgotPassword()
+#9 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#10 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-02-04 22:15:41 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 209, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 22:17:20 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 209, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 22:35:45 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 209, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 22:58:52 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 209, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 23:00:51 --> Trying to get property 'id' of non-object
+#0 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(209): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home/u1553325/...', 209, Array)
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Pembayaran->notifikasi()
+#2 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pembayaran))
+#3 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

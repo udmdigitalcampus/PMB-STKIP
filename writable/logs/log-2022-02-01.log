@@ -1,0 +1,90 @@
+CRITICAL - 2022-02-01 20:16:49 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:16:58 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:17:09 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:17:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:18:01 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:22:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:22:15 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:22:49 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-01 20:23:11 --> syntax error, unexpected 'public' (T_PUBLIC), expecting ';' or ','
+#0 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/u1553325/...')
+#1 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Midtrans\\Config')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Midtrans\\Config')
+#3 /home/u1553325/public_html/pmb/app/Controllers/Pembayaran.php(16): spl_autoload_call('Midtrans\\Config')
+#4 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Pembayaran->__construct()
+#5 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 /home/u1553325/public_html/pmb/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u1553325/public_html/pmb/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
