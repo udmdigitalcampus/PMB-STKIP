@@ -54,10 +54,10 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#programstudi">Program Studi</a></li>
-                    <li><a class="nav-link scrollto " href="#alurpendaftaran">Alur Pendaftaran</a></li>
+                    <!-- <li><a class="nav-link scrollto " href="#alurpendaftaran">Alur Pendaftaran</a></li> -->
                     <!-- <li><a class="nav-link scrollto" href="#faq">FAQ</a></li> -->
 
-                    <li><a class="nav-link" href="https://pmb.stkipnu.ac.id/pendaftar">DAFTAR</a></li>
+                    <!-- <li><a class="nav-link" href="https://pmb.stkipnu.ac.id/pendaftar">DAFTAR</a></li> -->
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
@@ -68,13 +68,13 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
-            <h1>Welcome to <span>STKIP NU INDRAMAYU</span></h1>
-            <h2>Jadi bagian dari kami dan wujudkan cita-cita kamu.</h2>
-            <div class="d-flex">
+            <h1>PMB STKIP NU INDRAMAYU <span class="text-danger">DITUTUP!</span></h1>
+            <h2>Sampai jumpa di PMB tahun depan.</h2>
+            <!-- <div class="d-flex">
                 <a href="https://pmb.stkipnu.ac.id/pendaftar" class="btn-get-started">Daftar</a>
                 <a href="https://www.youtube.com/watch?v=_K6MAyhQ8-o" class="glightbox btn-watch-video"><i
                         class="bi bi-play-circle"></i><span>Video Tutorial</span></a>
-            </div>
+            </div> -->
         </div>
     </section><!-- End Hero -->
 
@@ -126,7 +126,7 @@
         </section><!-- End Featured alurpendaftaran Section -->
 
         <!-- ======= programstudi Section ======= -->
-        <section id="alurpendaftaran" class="about section-bg">
+        <!-- <section id="alurpendaftaran" class="about section-bg">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -183,10 +183,10 @@
                 </div>
 
             </div>
-        </section><!-- End programstudi Section -->
+        </section>End programstudi Section -->
 
         <!-- ======= alurpendaftaran Section ======= -->
-        <section id="alurpendaftaran" class="services">
+        <!-- <section id="alurpendaftaran" class="services">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -232,7 +232,7 @@
                 </div>
 
             </div>
-        </section><!-- End alurpendaftaran Section -->
+        </section>End alurpendaftaran Section -->
 
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">

@@ -75,8 +75,7 @@
                         </h5>
                     </div>
                     <div class="col-lg-12 d-flex justify-content-center">
-                        <a href="/pendaftar/pembayaran" type="button"
-                            class="btn btn-info waves-effect btn-label waves-light"><i
+                        <a href="/" type="button" class="btn btn-info waves-effect btn-label waves-light"><i
                                 class="bx bx-money label-icon"></i> Bayar Registrasi</a>
                     </div>
                     <?php endif; ?>
