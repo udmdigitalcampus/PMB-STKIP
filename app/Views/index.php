@@ -72,8 +72,8 @@
             <h2>Sampai jumpa di PMB tahun depan.</h2>
             <div class="d-flex">
                 <a href="https://pmb.stkipnu.ac.id/pendaftar" class="btn-get-started">Login</a>
-                <a href="https://www.youtube.com/watch?v=_K6MAyhQ8-o" class="glightbox btn-watch-video"><i
-                        class="bi bi-play-circle"></i><span>Video Tutorial</span></a>
+                <!-- <a href="https://www.youtube.com/watch?v=_K6MAyhQ8-o" class="glightbox btn-watch-video"><i
+                        class="bi bi-play-circle"></i><span>Video Tutorial</span></a> -->
             </div>
         </div>
     </section><!-- End Hero -->
