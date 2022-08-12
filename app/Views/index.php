@@ -385,42 +385,6 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-    <script>
-    var url = 'https://al-ishlahtajug.sch.id/assets/js/wa.js';
-    var s = document.createElement('script');
-    s.type = 'text/javascript';
-    s.async = true;
-    s.src = url;
-    var options = {
-        "enabled": true,
-        "chatButtonSetting": {
-            "backgroundColor": "#4dc247",
-            "ctaText": "Butuh bantuan?",
-            "borderRadius": "25",
-            "marginLeft": "0",
-            "marginBottom": "30",
-            "marginLeft": "30",
-            "position": "left"
-        },
-        "brandSetting": {
-            "brandName": "PMB STKIPNU",
-            "brandSubTitle": "Pendaftaran Mahasiswa Baru STKIP NU Indramayu",
-            "brandImg": "https://pmb.stkipnu.ac.id/favicon.ico",
-            "welcomeText": "Assalamu'alaikum,\nAda yang bisa kami bantu ?",
-            "messageText": "Assalamualikum Ust,%0AMau bertanya tentang PMB.",
-            "backgroundColor": "#0a5f54",
-            "ctaText": "Chat",
-            "borderRadius": "25",
-            "autoShow": false,
-            "phoneNumber": "6283823281976"
-        }
-    };
-    s.onload = function() {
-        CreateWhatsappChatWidget(options);
-    };
-    var x = document.getElementsByTagName('script')[0];
-    x.parentNode.insertBefore(s, x);
-    </script>
 
     <!-- Vendor JS Files -->
     <script src="vendor/purecounter/purecounter.js"></script>
